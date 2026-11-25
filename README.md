@@ -114,15 +114,16 @@ Closed-loop performance did not improve monotonically with training steps. Check
 #### Task 0: Bowl Between the Plate and the Ramekin
 
 
-
-https://github.com/user-attachments/assets/8723e317-0fd1-40b0-94f1-407bdfa7b99e
-
-
+https://github.com/user-attachments/assets/a2d78923-2f3e-4ef9-ab5b-723d50e141c0
 
 
 #### Task 1: Bowl Next to the Ramekin
 
-<img width="960" height="476" alt="image" src="https://github.com/user-attachments/assets/620b3464-86a7-4e4e-b308-43602434d94e" />
+
+
+https://github.com/user-attachments/assets/55a094b3-d6b6-4f40-a3bc-2d93becc1f10
+
+
 
 
 ### Failure Analysis
@@ -153,11 +154,15 @@ The frames show grasping and transport rather than whole-episode immobility. Alt
 #### Failed Episode Demos
 
 
-https://github.com/user-attachments/assets/5454f5f8-7a83-4315-9563-53f301e5b0a3
+
+
+https://github.com/user-attachments/assets/2fce4e77-8f50-4247-a728-bfdbe9b2cefd
 
 
 
-https://github.com/user-attachments/assets/d7aa029e-823e-43e8-9675-bc65047fd2e8
+https://github.com/user-attachments/assets/592c88c6-bd15-4728-84ec-da0767b1303c
+
+
 
 
 
