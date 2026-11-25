@@ -114,14 +114,22 @@ Closed-loop performance did not improve monotonically with training steps. Check
 #### Task 0: Bowl Between the Plate and the Ramekin
 
 
-https://github.com/user-attachments/assets/a2d78923-2f3e-4ef9-ab5b-723d50e141c0
+
+
+https://github.com/user-attachments/assets/1075bd3d-190f-4ec0-9b28-8597638c7163
+
+
 
 
 #### Task 1: Bowl Next to the Ramekin
 
 
 
-https://github.com/user-attachments/assets/55a094b3-d6b6-4f40-a3bc-2d93becc1f10
+
+
+https://github.com/user-attachments/assets/c0e1fbab-5db9-4569-8f8a-d5f2d1478bdf
+
+
 
 
 
@@ -139,9 +147,6 @@ Across the five SFT checkpoints, 26 of 100 episodes failed. All failed episodes 
 
 The failed SFT episodes did not show whole-episode immobility. Recorded cumulative end-effector travel ranged from approximately 656.6 to 2,392.9 mm. In contrast, all 20 INIT episodes failed to establish a valid target grasp and showed motion away from the intended tabletop manipulation.
 
-Checkpoint-7000 failed in task 1 at episode indices 4 and 5. Both rollouts appeared close to successful placement: the bowl was lifted by approximately 151.5 and 153.5 mm, respectively, and ended above and in contact with the plate. However, the final bowl-to-plate XY center offsets were 36.33 and 47.65 mm, exceeding the native success condition's 30 mm distance requirement.
-
-The minimum offsets earlier in these episodes were 18.92 and 22.99 mm. Brief proximity alone did not establish success because the required geometric and contact conditions must hold together.
 
 These observations identify failure stages, but do not uniquely establish causes such as grip force, friction, or training-data coverage.
 
@@ -156,11 +161,13 @@ The frames show grasping and transport rather than whole-episode immobility. Alt
 
 
 
-https://github.com/user-attachments/assets/2fce4e77-8f50-4247-a728-bfdbe9b2cefd
+https://github.com/user-attachments/assets/e96e6b65-a78e-4099-b8c7-d069b0e50b7f
 
 
 
-https://github.com/user-attachments/assets/592c88c6-bd15-4728-84ec-da0767b1303c
+
+https://github.com/user-attachments/assets/21162f3c-d253-4552-97bb-d8edee893f21
+
 
 
 
@@ -226,4 +233,4 @@ This project builds on:
 - [Dexbotic](https://github.com/Dexmal/dexbotic)
 - [OpenPI](https://github.com/Physical-Intelligence/openpi)
 - [RLinf](https://github.com/RLinf/RLinf)
-- [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO)# Pi0-libero-repro-study
+- [LIBERO](https://github.com/Lifelong-Robot-Learning/LIBERO)
