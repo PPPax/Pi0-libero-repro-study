@@ -151,7 +151,7 @@ The failed SFT episodes did not show whole-episode immobility. Recorded cumulati
 These observations identify failure stages, but do not uniquely establish causes such as grip force, friction, or training-data coverage.
 
 
-Using the best-performing checkpoint-7000 as a case study, we examine its two failed rollouts: task ID 1, episode indices 4 and 5.
+Using the best-performing checkpoint-7000 as a case study, I examine its two failed rollouts: task ID 1, episode indices 4 and 5.
 <img width="960" height="476" alt="checkpoint-7000_failures_00" src="https://github.com/user-attachments/assets/467eb733-1a06-435a-acd9-bf90aa2bff68" />
 
 The frames show grasping and transport rather than whole-episode immobility. Although the final placements appear close to successful, replay measurements showed bowl-to-plate XY center offsets of 36.33 and 47.65 mm. Both exceeded the native success predicate's 30 mm distance threshold, despite final plate contact and the bowl being above the plate.
