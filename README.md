@@ -105,7 +105,7 @@ Each model was evaluated on task IDs 0 and 1 using 10 fixed initial states per t
 | checkpoint-7500 | 9/10 | 6/10 | 75% |
 | checkpoint-8000 | 10/10 | 7/10 | 85% |
 
-Closed-loop performance did not improve monotonically with training steps. Checkpoint-7000 achieved the best result under this protocol and was selected for PPO initialization. Its advantage over checkpoint-8000 was one successful episode, so this small evaluation does not establish a statistically reliable ranking.
+Closed-loop performance did not improve monotonically with training steps. Checkpoint-7000 achieved the best result under this protocol and was selected for PPO initialization. 
 
 
 
